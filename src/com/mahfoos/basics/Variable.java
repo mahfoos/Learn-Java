@@ -1,4 +1,4 @@
-package com.mahfoos;
+package com.mahfoos.basics;
 
 public class Variable {
 

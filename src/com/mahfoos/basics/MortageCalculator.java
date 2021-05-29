@@ -1,4 +1,4 @@
-package com.mahfoos;
+package com.mahfoos.basics;
 
 import java.text.NumberFormat;
 import java.util.Scanner;
