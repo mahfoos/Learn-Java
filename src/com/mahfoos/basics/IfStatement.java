@@ -12,9 +12,10 @@ public class IfStatement {
         } else {
             System.out.println("Cold day");
         }
-        // Simpling the IF
+        // Ternary Operator
         int income = 120_000;
-
+        String className = income > 100_000 ? "First" : "Economy";
+        System.out.println(className);
 
     }
 }
