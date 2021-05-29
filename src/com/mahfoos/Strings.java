@@ -3,43 +3,22 @@ package com.mahfoos;
 public class Strings {
 
     public static void main (String[] args) {
-        int addition = 10+3;
-        int subtraction = 10-3;
-        int divide = 10/4 ;
-        int multiply = 10*3;
-        double result = (double)10 / (double)3;
 
-        System.out.println(result);
-        System.out.println(addition);
-        System.out.println(subtraction);
-        System.out.println(divide);
-        System.out.println(multiply);
+        String message = "Hello World";
+        System.out.println(message.endsWith("!!")); // Output the true / false based on the condition
+        System.out.println(message.startsWith("ee"));
+        System.out.println(message.length());
+        System.out.println(message.indexOf("jw"));
+        System.out.println(message.replace("H", "m"));
+        System.out.println(message.toLowerCase());
+        System.out.println(message.toUpperCase());
+        System.out.println(message.trim()); // deleting the space
 
-        System.out.println();
-
-        int x = 1;
-        x++; // incrementing post fix
-        System.out.println(x);
-
-        int y = 2;
-        ++y; //prefix
-        int z = y++;
-        System.out.println(y);
-        System.out.println(z);
-
-        int a = 1;
-        a+=2; // augment or compound assignment operator
-        System.out.println(a);
-
-        // Order of operation
-        /* ()
-           *  /
-           + -
-         */
-        int order = 10 + 3 * 2;
-        System.out.println(x);
-
-
+        //  c:\windows\...
+        String msg = "c:\\Windows\\";
+        String nextLine = "c\ns";
+        System.out.println(msg);
+        System.out.println(nextLine);
 
 
 
