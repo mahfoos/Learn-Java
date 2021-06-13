@@ -17,4 +17,8 @@ public class Disease {
     public boolean isCurable() {
         return curable;
     }
+
+    public void setCurable(boolean curable) {
+        this.curable = curable;
+    }
 }

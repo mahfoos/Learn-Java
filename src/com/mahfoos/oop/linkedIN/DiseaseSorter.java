@@ -17,6 +17,12 @@ public class DiseaseSorter {
         diseases.add(malaria);
         diseases.add(cancer);
 
+        // 1. Change the value in the constructor - You can only call a constructor
+        // 2. access the member variable directly - breaks encapsulation
+        // 3. create a setter
+
+        cancer.setCurable(true);
+
         // print all the incurable disease
         System.out.println("Curable diseases");
         for (Disease disease : diseases){
