@@ -37,10 +37,14 @@ reusability. It is used to achieve runtime polymorphism.
 
 - If one task is performed in different ways. it is known as polymorphism. 
 For example : to convince the customer differently, to draw something, for example, shape, triangle, rectangle, etc.
+- Poly - many , morph - form ,
   
 - In java, we use method overloading and method overriding to achieve polymorphism.
 - Another example can be to speak something; for example, a cat speaks meow, dog barks woof, etc.
+- There are 2 type 
 
+  - Static / Method Overloading
+  - Dynamic / Method overriding
 # Abstraction
 
 - Hiding internal details and showing functionality is known as abstraction. For example phone call, we don't know the internal processing.
@@ -101,4 +105,59 @@ For example : to convince the customer differently, to draw something, for examp
 - It is the state where containing objects do not have an independent existence.
 - If you delete the parent object, all the child objects will be deleted automatically.
 
+# Thread in Java
 
+- Every java program has a default main thread
+- A thread is an independent path of code execution
+- Many threads can run concurrently in jva program
+- Thread can be used to perform time-intensive tasks
+- Runnable are objects that encapsulate code sequences
+- Each thread executes a runnable object
+- Threads can initiate as asynchronous task.
+- Asynchronous indicates that it can run concurrently
+- The JVM gives each thread its own private JVM stack.
+- The prevents threads from interfering with each other
+- The stack holds local variables.
+- It also tracks next instructions and calls methods.
+- Java supports threads through java.lang.Thread class and the jav.lang.Runnable interface
+- Threads are either daemon or non-daemon
+- Daemon threads don't stop the JVM from ending
+- Threads by default are non-daemon threads.
+- Java garbage collection run on a daemon thread.
+- A daemon thread is created calling setDaemon(true)
+- The main thread is a non-daemon thread
+
+![img.png](img.png)
+
+# Create a Thread
+
+- There are two ways to create a thread
+    - Declare a new class as a subclass of the Thread class
+    - Must override the run() method
+    - An instance of this subclass can be allocated and started
+
+    - Implement the runnable interface
+    - Create a new class that implements Runnable
+    - Create a Runnable object and use a Thread Constructor
+    - Still must override the run() method
+  
+# Thread State 
+
+- Each thread object has a state.
+- State includes name, alive/dead, execution state and priority, and priority,
+and a daemon/non-daemon status.
+  
+- Each attribute has a get/set method associated with it.
+
+# Execution State of a Thread
+
+- New - created but not started
+- Runnable - a thread executing in the JVM
+- Blocked - blocked waiting for a monitor to be unlocked
+- Waiting - waiting to be notified
+- Timed_waiting - waiting with a time limit
+- Terminated - a thread that has completed execution
+
+
+
+  
