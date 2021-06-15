@@ -2,7 +2,7 @@ package com.mahfoos.quiz;
 
 import java.util.Arrays;
 import java.util.TreeSet;
-import java.util.*;
+
 import static java.util.stream.Collectors.toCollection;
 
 

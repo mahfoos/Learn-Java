@@ -1,7 +1,6 @@
 package com.mahfoos.quiz;
 
 import java.util.*;
-import java.io.*;
 import java.util.regex.*;
 public class Question  {
     public static String QuestionsMarks(String str) {

@@ -1,7 +1,6 @@
 package com.mahfoos.quiz;
 
 import java.util.*;
-import java.io.*;
 
 public class TreeConsteucror {
 

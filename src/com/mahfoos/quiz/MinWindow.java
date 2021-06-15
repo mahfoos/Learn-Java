@@ -1,7 +1,5 @@
 package com.mahfoos.quiz;
 
-import java.util.Scanner;
-
 public class MinWindow {
 
     public static String MinWindowSubstring(String[] strArr) {
