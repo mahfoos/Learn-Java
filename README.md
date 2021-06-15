@@ -158,6 +158,32 @@ and a daemon/non-daemon status.
 - Timed_waiting - waiting with a time limit
 - Terminated - a thread that has completed execution
 
+# Collection in Java
 
+- The collection in java is a framework that provides an architecture to store
+and manipulate the group of objects.
+  
+- Java Collections can achieve all the operations that you perform on a data
+such as searching, sorting, insertion, manipulation and deletion.
+  
+- Java collection means a single unit of objects.
+- Java collection framework provides many interfaces (Set, List, Queue, Deque) and classes
+  (Arraylist, vector, LinkedList, priorityQueue, HashSet, LinkedHashSet, TreeSet)
+  
+# What is Collection in Java
 
+- A collection represents a single unit of objects
+
+# What is framework in Java
+
+- It provides readymade architecture.
+- It represents a set of classes and interfaces.
+- It is optional 
+
+# What is Collection framework
+
+- The Collection framework represents a unified architecture for strong and manipulating a group of objects
+it haas
+    - Interfaces and its implementations 
+    - Algorithm
   
