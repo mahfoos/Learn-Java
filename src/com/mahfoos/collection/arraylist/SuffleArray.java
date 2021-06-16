@@ -1,4 +1,4 @@
-package com.mahfoos.arraylist;
+package com.mahfoos.collection.arraylist;
 
 import java.util.Arrays;
 import java.util.Random;

@@ -1,4 +1,4 @@
-package com.mahfoos.hashmap;
+package com.mahfoos.collection.hashmap;
 
 import java.util.HashMap;
 

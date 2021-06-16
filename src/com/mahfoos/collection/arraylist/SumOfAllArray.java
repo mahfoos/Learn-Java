@@ -1,4 +1,4 @@
-package com.mahfoos.arraylist;
+package com.mahfoos.collection.arraylist;
 
 public class SumOfAllArray {
 
